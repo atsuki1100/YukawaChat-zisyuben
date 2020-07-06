@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>hosii</title>
+<link href="../css/hosii_main.css" th:href="@{../css/hosii_main.css}"
+	rel="stylesheet"></link>
+</head>
+<body>
+	<!-- ヘッダー -->
+	<header>
+		<div class="logo">ロゴ</div>
+		<div class="name-wrap">
+			<div class="sub-name">欲しいものを買うために貯金したい人のためのサイト</div>
+			<div class="app-name">hosii</div>
+		</div>
+		<div class="user">user</div>
+	</header>
+	<main>
+		<!-- 貯金額表示 -->
+		<div class="savings">
+			<p class="savings-txt">貯金額</p>
+			<div class="savings-num">10000円</div>
+		</div>
+		<!-- 目標金額までの残額表示 -->
+		<div class="balance">
+			<p class="balance-txt">目標金額まで残り</p>
+			<div class="balance-num">190000円</div>
+		</div>
+		<!-- 欲しいのリスト・合計金額表示 -->
+		<div class="wont-main">
+			<div class="wont-total">
+				<p class="wont-total-txt">欲しいもの合計</p>
+				<div class="wont-total-num">200000万</div>
+				<div class="wont-list">
+					<table border="1" width="500" cellspacing="0" cellpadding="5"
+						bordercolor="#333333" class="wont-list-table">
+						<tr>
+							<th bgcolor="#EE0000"><font color="#FFFFFF">picture</font></th>
+							<th bgcolor="#EE0000" width="150"><font color="#FFFFFF">name</font></th>
+							<th bgcolor="#EE0000" width="200"><font color="#FFFFFF">price</font></th>
+						</tr>
+						<tr>
+							<td bgcolor="#99CC00" align="right" nowrap>null</td>
+							<td bgcolor="#FFFFFF" valign="top" width="150">玉子とベーコンとクリームソースのパスタ</td>
+							<td bgcolor="#FFFFFF" valign="top" width="200">800円</td>
+						</tr>
+						<tr>
+							<td bgcolor="#99CC00" align="right" nowrap>null</td>
+							<td bgcolor="#FFFFFF" valign="top" width="150">エビとあさりの漁師風パスタ</td>
+							<td bgcolor="#FFFFFF" valign="top" width="200">1500円</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>

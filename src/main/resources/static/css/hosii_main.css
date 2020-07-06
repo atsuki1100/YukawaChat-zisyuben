@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@import url("reset.css");
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+main {;
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	height: 100px;
+	background-color: #90d980;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.logo {
+	border:solid 1px black;
+	width: 100px;
+}
+
+.name-wrap {
+	border:solid 1px black;
+	width: 1170px;
+}
+.app-name {
+	font-size: 100%;
+	color: red;
+}
+.sub-name{
+	font-size: 100%;
+}
+
+.user {
+	border:solid 1px black;
+	width: 100px;
+}
+
+.savings {
+
+}

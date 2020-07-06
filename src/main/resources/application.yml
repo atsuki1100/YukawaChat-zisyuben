@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    sqlScriptEncoding: UTF-8
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://root@127.0.0.1:3306/YukawaChat?useSSL=false&requireSSL=false
+    username: root
+  # アプリケーション起動時にデータベースを初期化しないようにする
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+logging:
+  level:
+    sql: debug
